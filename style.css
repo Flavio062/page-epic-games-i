@@ -101,10 +101,9 @@ a{
     display: flex;
     height: 100px;
     width: 100%;
-    
-    margin-left: 192px;
     align-items: center;
-    position: fixed ;
+    position: sticky ;
+    top: 0px;
     background-color: #121212;
     
 
@@ -131,16 +130,18 @@ padding-left: 30PX;
 width: 170PX;
 font-size: 15PX;
 font-weight: 510;
+margin-left: 190px;
 }
 
 main{
     width: 74%;
     margin: 0 auto;
     
+    
 }
 
 .black{
-  margin-top: 100px;
+  margin-top: ;
   display: flex;
   justify-content: space-between;
   
