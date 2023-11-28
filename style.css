@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+   
+    height: 10000px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #18181cf4;
+    color: white;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo img{
+    width: 50px;
+}
+
+.separador{
+    width: 3px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #303034;
+    margin-left: 20px;
+}
+
+.store{
+    margin-left: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.nav{
+    margin-left: 5px;
+}
+
+.nav button{
+    background-color: #18181C;
+    color: #989898;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.perfil{
+    background-color: #303034;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+}
+
+
+.perfil img{
+    width: 20px;
+    margin-top: 5px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+}
+.down{
+    height: 33px;
+    width: 100px;
+    background-color: #61CDFF;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.menu{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    
+    margin-left: 192px;
+    align-items: center;
+    position: fixed ;
+    background-color: #121212;
+    
+
+    
+}
+
+.menu ul{
+    display: flex;
+    color: rgb(199, 199, 199);
+    list-style: none;
+
+}
+
+.menu ul li{
+    margin-left: 26px;
+}
+
+.menu input{
+background-color: #202020 ;
+color: white ;
+height: 35px;
+border-radius: 20px;
+padding-left: 30PX;
+width: 170PX;
+font-size: 15PX;
+font-weight: 510;
+}
+
+main{
+    width: 74%;
+    margin: 0 auto;
+    
+}
+
+.black{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.black div{
+    width: 350px;
+    height: 190px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+
+
+.black1 img{
+    width: 350px;
+    height: 190px;
+    border-radius: 20px;
+
+}
